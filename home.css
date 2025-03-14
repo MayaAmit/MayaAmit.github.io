@@ -7,15 +7,23 @@ body {
   padding: 0;
 }
 
+/* Indent header, main, and footer */
+header,
+main,
+footer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* Style the introduction section */
 #introduction {
   max-width: 800px;      /* Maximum width for the section */
   padding: 20px;         /* Padding around the content */
-  
   border-radius: 8px;    /* Rounded corners */
-  margin: 20px 0 20px 20px; /* top, right, bottom, left */}
+  margin: 20px 0;        /* Top & bottom margin only */
+}
 
-/* Navigation styles (optional, for better layout) */
+/* Navigation styles */
 nav ul {
   list-style: none;
   padding: 0;
