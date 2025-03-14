@@ -11,7 +11,7 @@ body {
 #introduction {
   max-width: 800px;      /* Maximum width for the section */
   padding: 20px;         /* Padding around the content */
-  background-color: #fff; /* White background for better readability */
+  
   border-radius: 8px;    /* Rounded corners */
   margin: 20px 0;        /* Vertical spacing; no horizontal auto margin, so it stays left-aligned */
 }
