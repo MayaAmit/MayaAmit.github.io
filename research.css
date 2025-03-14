@@ -1,0 +1,55 @@
+/* research.css */
+
+/* Global styling */
+body {
+  background-color: #f3e5f5;  /* Light purple background */
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* General container margins for header, main, and footer */
+header,
+main,
+footer {
+  margin: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Intro section styling */
+#intro {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+/* Image grid styling */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
