@@ -13,8 +13,7 @@ body {
   padding: 20px;         /* Padding around the content */
   
   border-radius: 8px;    /* Rounded corners */
-  margin: 20px 0;        /* Vertical spacing; no horizontal auto margin, so it stays left-aligned */
-}
+  margin: 20px 0 20px 20px; /* top, right, bottom, left */}
 
 /* Navigation styles (optional, for better layout) */
 nav ul {
